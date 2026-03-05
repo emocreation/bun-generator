@@ -12,7 +12,7 @@ It does the following things:
 ## Installation
 
 ```bash
-npm install -g @emohk/bun-generator
+bun install -g @emohk/bun-generator
 ```
 
 ## Usage
