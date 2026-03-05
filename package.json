@@ -1,6 +1,6 @@
 {
   "name": "@emohk/bun-generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A generator for creating Bun projects",
   "type": "module",
   "scripts": {
