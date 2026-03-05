@@ -1,0 +1,35 @@
+{
+  "name": "@emohk/bun-generator",
+  "version": "1.0.0",
+  "description": "A generator for creating Bun projects",
+  "type": "module",
+  "scripts": {
+    "test": "bun run index.ts",
+    "build": "bun run build.ts",
+    "prepublishOnly": "bun run build"
+  },
+  "bin": {
+    "create-bun-app": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emocreation/bun-generator.git"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "^3.8.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@emohk/utils": "^1.0.0"
+  },
+  "author": "Ronald Mak",
+  "license": "MIT"
+}
