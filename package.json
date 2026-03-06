@@ -9,7 +9,7 @@
     "prepublishOnly": "bun run build"
   },
   "bin": {
-    "create-bun-app": "./dist/index.js"
+    "create-bun-app": "dist/index.js"
   },
   "files": [
     "dist",
