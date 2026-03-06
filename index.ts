@@ -65,7 +65,7 @@ const main = async () => {
   const packageJson = await Bun.file(packageJsonPath).json()
   packageJson.scripts = {
     ...packageJson.scripts,
-    test: 'bun run index.ts',
+    dev: 'bun run index.ts',
     build: 'bun run build.ts'
   }
   await Bun.write(packageJsonPath, JSON.stringify(packageJson, null, 2))
