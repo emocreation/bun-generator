@@ -16,11 +16,6 @@
     "README.md",
     "LICENSE"
   ],
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/",
-    "provenance": true
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/emocreation/bun-generator.git"
