@@ -21,7 +21,7 @@ bun install -g @emohk/bun-generator
 create-bun-app <project-name>
 ```
 
-<project-name> is optional. You can enter it later.
+`<project-name>` is optional. You can enter it later.
 
 ## Development
 
