@@ -25,10 +25,10 @@
     "prettier": "^3.8.1"
   },
   "peerDependencies": {
-    "typescript": "^5"
+    "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@emohk/utils": "^1.0.0"
+    "@emohk/utils": "^1.0.2"
   },
   "author": "Ronald Mak",
   "license": "MIT"
