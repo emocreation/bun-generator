@@ -22,13 +22,11 @@
   },
   "devDependencies": {
     "@types/bun": "latest",
-    "prettier": "^3.8.1"
-  },
-  "peerDependencies": {
-    "typescript": "^5.9.3"
+    "prettier": "^3.9.10",
+    "typescript": "^7.0.2"
   },
   "dependencies": {
-    "@emohk/utils": "^1.0.2"
+    "@emohk/utils": "^1.0.5"
   },
   "author": "Ronald Mak",
   "license": "MIT"
